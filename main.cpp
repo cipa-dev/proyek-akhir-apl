@@ -9,9 +9,12 @@ bool Menu_Login = false;
 string Input_Username;
 string Input_Pw;
 string Program_Jalan = "y";
-int Pilihan_Login
+int Pilihan_Login;
+vector<Akun> List_Akun;
 
 int main () {
+    Muat_Akun();
+    
     system("cls");
 
     while (Program_Jalan == "y") {
@@ -77,4 +80,4 @@ int main () {
 
     }
     return 0;
-    }
+}
