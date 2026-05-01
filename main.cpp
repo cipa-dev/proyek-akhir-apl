@@ -9,7 +9,7 @@ bool Menu_Login = false;
 string Input_Username;
 string Input_Pw;
 string Program_Jalan = "y";
-int Pilihan_Login
+int Pilihan_Login;
 
 int main () {
     system("cls");
@@ -21,9 +21,9 @@ int main () {
     cout << "=================================== " << endl;
     cout << "         Silahkan Login !" << endl;
     cout << "===================================  " << endl;
-    cout << " 1. Login " << endl;
-    cout << " 2. Sign in " << endl;
-    cout << " 3. Exit " << endl;
+    cout << " [1]. Login " << endl;
+    cout << " [2]. Sign in " << endl;
+    cout << " [3]. Exit " << endl;
     cout << "-----------------------------------" << endl; 
 
     try {
