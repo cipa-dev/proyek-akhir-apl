@@ -1,4 +1,4 @@
-id, name, class,  category, tribes, strength, health, traits, effects, desc, isSignature
+id, name, class, category, tribes, strength, health, traits, effects, desc, isSignature
 1, big-chill, smarty, trick, -, -1, -1, -, freeze|draw, freeze a zombie. draw a card, 0
 2, whirlwind, smarty, trick, -, -1, -1, -, bounce, bounce a random zombie, 0
 3, embiggen, mega-grow, trick, -, -1, -1, -, -, a plant gets +2/+2, 0
